@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+target 'ICEDebug' do
+ 
+ pod 'CocoaAsyncSocket'
+    
+end
+
+
+
+
+
+
+
+

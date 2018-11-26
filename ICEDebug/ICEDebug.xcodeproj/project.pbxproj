@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021D921421A7D125006E1797 /* ICEDebugmove.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D921321A7D125006E1797 /* ICEDebugmove.m */; };
+		021D921721A802ED006E1797 /* ICEDebugdevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D921621A802ED006E1797 /* ICEDebugdevice.m */; };
+		021D921A21A80B4E006E1797 /* ICEDebugapplist.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D921921A80B4E006E1797 /* ICEDebugapplist.m */; };
+		023ADC3C20D11E7400B2E387 /* ICEDebugvctree.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC3B20D11E7400B2E387 /* ICEDebugvctree.m */; };
+		023ADC3F20D120BB00B2E387 /* ICEDebugBaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC3E20D120BA00B2E387 /* ICEDebugBaseCommand.m */; };
+		023ADC4220D12A2D00B2E387 /* ICEDebugpush.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC4120D12A2D00B2E387 /* ICEDebugpush.m */; };
+		023ADC4520D12B9D00B2E387 /* ICEDebugproperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC4420D12B9D00B2E387 /* ICEDebugproperties.m */; };
+		023ADC4820D12ED900B2E387 /* ICEDebughelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC4720D12ED900B2E387 /* ICEDebughelp.m */; };
+		023ADC5120D1327A00B2E387 /* ICEDebugCommonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC5020D1327A00B2E387 /* ICEDebugCommonCommand.m */; };
+		023ADC5720D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC5620D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.m */; };
+		023ADC5B20D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC5A20D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.m */; };
+		023ADC5E20D2380600B2E387 /* ICEDebugUIRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC5D20D2380600B2E387 /* ICEDebugUIRuler.m */; };
+		023ADC6120D241E900B2E387 /* ICEDebugpo.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC6020D241E900B2E387 /* ICEDebugpo.m */; };
+		023ADC6420D2438800B2E387 /* ICEDebugsubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC6320D2438800B2E387 /* ICEDebugsubviews.m */; };
+		023ADC6720D2446100B2E387 /* ICEDebugframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 023ADC6620D2446100B2E387 /* ICEDebugframe.m */; };
+		02C62D1D2109F7DD00A7055C /* ICEDebugCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C62D1C2109F7DD00A7055C /* ICEDebugCommunication.m */; };
+		02F51E6220D0F5F000930FFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E6120D0F5F000930FFD /* AppDelegate.m */; };
+		02F51E6520D0F5F000930FFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E6420D0F5F000930FFD /* ViewController.m */; };
+		02F51E6820D0F5F000930FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F51E6620D0F5F000930FFD /* Main.storyboard */; };
+		02F51E6B20D0F5F000930FFD /* ICEDebug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E6920D0F5F000930FFD /* ICEDebug.xcdatamodeld */; };
+		02F51E6D20D0F5F300930FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F51E6C20D0F5F300930FFD /* Assets.xcassets */; };
+		02F51E7020D0F5F300930FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F51E6E20D0F5F300930FFD /* LaunchScreen.storyboard */; };
+		02F51E7320D0F5F300930FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E7220D0F5F300930FFD /* main.m */; };
+		02F51E7D20D0F5F300930FFD /* ICEDebugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E7C20D0F5F300930FFD /* ICEDebugTests.m */; };
+		02F51E8820D0F5F300930FFD /* ICEDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51E8720D0F5F300930FFD /* ICEDebugUITests.m */; };
+		02F51E9720D0F7C700930FFD /* ICEDebug.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 02F51E9620D0F7C700930FFD /* ICEDebug.podspec */; };
+		02F51EA920D0FD8700930FFD /* ICEDebugCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F51EA820D0FD8700930FFD /* ICEDebugCommunicationManager.m */; };
+		185FB23321A6B7CD009A5966 /* ICEDebugedge.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB23221A6B7CD009A5966 /* ICEDebugedge.m */; };
+		185FB23621A6B948009A5966 /* ICEDebugremoveview.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB23521A6B948009A5966 /* ICEDebugremoveview.m */; };
+		185FB23921A6BF33009A5966 /* ICEDebugaddview.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB23821A6BF33009A5966 /* ICEDebugaddview.m */; };
+		185FB23C21A8425C009A5966 /* ICEDebugWebCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB23B21A8425C009A5966 /* ICEDebugWebCommunication.m */; };
+		185FB24221A8595E009A5966 /* ICEDebugscreeninfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB24121A8595E009A5966 /* ICEDebugscreeninfo.m */; };
+		185FB24521A9275F009A5966 /* ICEDebugopenurl.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FB24421A9275F009A5966 /* ICEDebugopenurl.m */; };
+		88AF476FD14C3DDEF3F1309F /* libPods-ICEDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D8EA437A40C5DBA20BA099 /* libPods-ICEDebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F51E7920D0F5F300930FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F51E5520D0F5F000930FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F51E5C20D0F5F000930FFD;
+			remoteInfo = ICEDebug;
+		};
+		02F51E8420D0F5F300930FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F51E5520D0F5F000930FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F51E5C20D0F5F000930FFD;
+			remoteInfo = ICEDebug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021D921221A7D125006E1797 /* ICEDebugmove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugmove.h; sourceTree = "<group>"; };
+		021D921321A7D125006E1797 /* ICEDebugmove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugmove.m; sourceTree = "<group>"; };
+		021D921521A802ED006E1797 /* ICEDebugdevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugdevice.h; sourceTree = "<group>"; };
+		021D921621A802ED006E1797 /* ICEDebugdevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugdevice.m; sourceTree = "<group>"; };
+		021D921821A80B4E006E1797 /* ICEDebugapplist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugapplist.h; sourceTree = "<group>"; };
+		021D921921A80B4E006E1797 /* ICEDebugapplist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugapplist.m; sourceTree = "<group>"; };
+		023ADC3A20D11E7400B2E387 /* ICEDebugvctree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugvctree.h; sourceTree = "<group>"; };
+		023ADC3B20D11E7400B2E387 /* ICEDebugvctree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugvctree.m; sourceTree = "<group>"; };
+		023ADC3D20D120BA00B2E387 /* ICEDebugBaseCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugBaseCommand.h; sourceTree = "<group>"; };
+		023ADC3E20D120BA00B2E387 /* ICEDebugBaseCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugBaseCommand.m; sourceTree = "<group>"; };
+		023ADC4020D12A2D00B2E387 /* ICEDebugpush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugpush.h; sourceTree = "<group>"; };
+		023ADC4120D12A2D00B2E387 /* ICEDebugpush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugpush.m; sourceTree = "<group>"; };
+		023ADC4320D12B9D00B2E387 /* ICEDebugproperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugproperties.h; sourceTree = "<group>"; };
+		023ADC4420D12B9D00B2E387 /* ICEDebugproperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugproperties.m; sourceTree = "<group>"; };
+		023ADC4620D12ED900B2E387 /* ICEDebughelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebughelp.h; sourceTree = "<group>"; };
+		023ADC4720D12ED900B2E387 /* ICEDebughelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebughelp.m; sourceTree = "<group>"; };
+		023ADC4F20D1327A00B2E387 /* ICEDebugCommonCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugCommonCommand.h; sourceTree = "<group>"; };
+		023ADC5020D1327A00B2E387 /* ICEDebugCommonCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugCommonCommand.m; sourceTree = "<group>"; };
+		023ADC5520D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugUIRulerVerticalView.h; sourceTree = "<group>"; };
+		023ADC5620D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugUIRulerVerticalView.m; sourceTree = "<group>"; };
+		023ADC5820D21B3700B2E387 /* ICEDebugMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugMacro.h; sourceTree = "<group>"; };
+		023ADC5920D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugUIRulerHorizontalView.h; sourceTree = "<group>"; };
+		023ADC5A20D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugUIRulerHorizontalView.m; sourceTree = "<group>"; };
+		023ADC5C20D2380600B2E387 /* ICEDebugUIRuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugUIRuler.h; sourceTree = "<group>"; };
+		023ADC5D20D2380600B2E387 /* ICEDebugUIRuler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugUIRuler.m; sourceTree = "<group>"; };
+		023ADC5F20D241E900B2E387 /* ICEDebugpo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugpo.h; sourceTree = "<group>"; };
+		023ADC6020D241E900B2E387 /* ICEDebugpo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugpo.m; sourceTree = "<group>"; };
+		023ADC6220D2438800B2E387 /* ICEDebugsubviews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugsubviews.h; sourceTree = "<group>"; };
+		023ADC6320D2438800B2E387 /* ICEDebugsubviews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugsubviews.m; sourceTree = "<group>"; };
+		023ADC6520D2446100B2E387 /* ICEDebugframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugframe.h; sourceTree = "<group>"; };
+		023ADC6620D2446100B2E387 /* ICEDebugframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugframe.m; sourceTree = "<group>"; };
+		023ADCBA20D2541800B2E387 /* ICEDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebug.h; sourceTree = "<group>"; };
+		02C62D1B2109F7DD00A7055C /* ICEDebugCommunication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugCommunication.h; sourceTree = "<group>"; };
+		02C62D1C2109F7DD00A7055C /* ICEDebugCommunication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugCommunication.m; sourceTree = "<group>"; };
+		02F51E5D20D0F5F000930FFD /* ICEDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICEDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F51E6020D0F5F000930FFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02F51E6120D0F5F000930FFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02F51E6320D0F5F000930FFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02F51E6420D0F5F000930FFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02F51E6720D0F5F000930FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02F51E6A20D0F5F000930FFD /* ICEDebug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ICEDebug.xcdatamodel; sourceTree = "<group>"; };
+		02F51E6C20D0F5F300930FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F51E6F20D0F5F300930FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02F51E7120D0F5F300930FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F51E7220D0F5F300930FFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02F51E7820D0F5F300930FFD /* ICEDebugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICEDebugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F51E7C20D0F5F300930FFD /* ICEDebugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugTests.m; sourceTree = "<group>"; };
+		02F51E7E20D0F5F300930FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F51E8320D0F5F300930FFD /* ICEDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICEDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F51E8720D0F5F300930FFD /* ICEDebugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugUITests.m; sourceTree = "<group>"; };
+		02F51E8920D0F5F300930FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F51E9620D0F7C700930FFD /* ICEDebug.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICEDebug.podspec; path = ../../ICEDebug.podspec; sourceTree = "<group>"; };
+		02F51EA720D0FD8700930FFD /* ICEDebugCommunicationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugCommunicationManager.h; sourceTree = "<group>"; };
+		02F51EA820D0FD8700930FFD /* ICEDebugCommunicationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugCommunicationManager.m; sourceTree = "<group>"; };
+		185FB23121A6B7CD009A5966 /* ICEDebugedge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugedge.h; sourceTree = "<group>"; };
+		185FB23221A6B7CD009A5966 /* ICEDebugedge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugedge.m; sourceTree = "<group>"; };
+		185FB23421A6B948009A5966 /* ICEDebugremoveview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugremoveview.h; sourceTree = "<group>"; };
+		185FB23521A6B948009A5966 /* ICEDebugremoveview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugremoveview.m; sourceTree = "<group>"; };
+		185FB23721A6BF33009A5966 /* ICEDebugaddview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugaddview.h; sourceTree = "<group>"; };
+		185FB23821A6BF33009A5966 /* ICEDebugaddview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugaddview.m; sourceTree = "<group>"; };
+		185FB23A21A8425C009A5966 /* ICEDebugWebCommunication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugWebCommunication.h; sourceTree = "<group>"; };
+		185FB23B21A8425C009A5966 /* ICEDebugWebCommunication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugWebCommunication.m; sourceTree = "<group>"; };
+		185FB24021A8595E009A5966 /* ICEDebugscreeninfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugscreeninfo.h; sourceTree = "<group>"; };
+		185FB24121A8595E009A5966 /* ICEDebugscreeninfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugscreeninfo.m; sourceTree = "<group>"; };
+		185FB24321A9275F009A5966 /* ICEDebugopenurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICEDebugopenurl.h; sourceTree = "<group>"; };
+		185FB24421A9275F009A5966 /* ICEDebugopenurl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEDebugopenurl.m; sourceTree = "<group>"; };
+		2D15C83B3A40E05F938A7577 /* Pods-ICEDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICEDebug.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICEDebug/Pods-ICEDebug.release.xcconfig"; sourceTree = "<group>"; };
+		B257F3BCC6A1AB2C7FBAE5EF /* Pods-ICEDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICEDebug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICEDebug/Pods-ICEDebug.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D8EA437A40C5DBA20BA099 /* libPods-ICEDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICEDebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F51E5A20D0F5F000930FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF476FD14C3DDEF3F1309F /* libPods-ICEDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E7520D0F5F300930FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E8020D0F5F300930FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F51E5420D0F5F000930FFD = {
+			isa = PBXGroup;
+			children = (
+				02F51E9520D0F7C100930FFD /* Classes */,
+				02F51E5F20D0F5F000930FFD /* ICEDebug */,
+				02F51E7B20D0F5F300930FFD /* ICEDebugTests */,
+				02F51E8620D0F5F300930FFD /* ICEDebugUITests */,
+				02F51E5E20D0F5F000930FFD /* Products */,
+				BE9B9E7ED82C10AA30B30FD2 /* Pods */,
+				E7722B8E7C891E24EA52CE78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02F51E5E20D0F5F000930FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F51E5D20D0F5F000930FFD /* ICEDebug.app */,
+				02F51E7820D0F5F300930FFD /* ICEDebugTests.xctest */,
+				02F51E8320D0F5F300930FFD /* ICEDebugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F51E5F20D0F5F000930FFD /* ICEDebug */ = {
+			isa = PBXGroup;
+			children = (
+				02F51E9620D0F7C700930FFD /* ICEDebug.podspec */,
+				02F51E6020D0F5F000930FFD /* AppDelegate.h */,
+				02F51E6120D0F5F000930FFD /* AppDelegate.m */,
+				02F51E6320D0F5F000930FFD /* ViewController.h */,
+				02F51E6420D0F5F000930FFD /* ViewController.m */,
+				02C62D1B2109F7DD00A7055C /* ICEDebugCommunication.h */,
+				02C62D1C2109F7DD00A7055C /* ICEDebugCommunication.m */,
+				185FB23A21A8425C009A5966 /* ICEDebugWebCommunication.h */,
+				185FB23B21A8425C009A5966 /* ICEDebugWebCommunication.m */,
+				02F51E6620D0F5F000930FFD /* Main.storyboard */,
+				02F51E6C20D0F5F300930FFD /* Assets.xcassets */,
+				02F51E6E20D0F5F300930FFD /* LaunchScreen.storyboard */,
+				02F51E7120D0F5F300930FFD /* Info.plist */,
+				02F51E7220D0F5F300930FFD /* main.m */,
+				02F51E6920D0F5F000930FFD /* ICEDebug.xcdatamodeld */,
+			);
+			path = ICEDebug;
+			sourceTree = "<group>";
+		};
+		02F51E7B20D0F5F300930FFD /* ICEDebugTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F51E7C20D0F5F300930FFD /* ICEDebugTests.m */,
+				02F51E7E20D0F5F300930FFD /* Info.plist */,
+			);
+			path = ICEDebugTests;
+			sourceTree = "<group>";
+		};
+		02F51E8620D0F5F300930FFD /* ICEDebugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02F51E8720D0F5F300930FFD /* ICEDebugUITests.m */,
+				02F51E8920D0F5F300930FFD /* Info.plist */,
+			);
+			path = ICEDebugUITests;
+			sourceTree = "<group>";
+		};
+		02F51E9520D0F7C100930FFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02F51EA720D0FD8700930FFD /* ICEDebugCommunicationManager.h */,
+				02F51EA820D0FD8700930FFD /* ICEDebugCommunicationManager.m */,
+				023ADC4F20D1327A00B2E387 /* ICEDebugCommonCommand.h */,
+				023ADC5020D1327A00B2E387 /* ICEDebugCommonCommand.m */,
+				023ADC5820D21B3700B2E387 /* ICEDebugMacro.h */,
+				023ADC3D20D120BA00B2E387 /* ICEDebugBaseCommand.h */,
+				023ADC3E20D120BA00B2E387 /* ICEDebugBaseCommand.m */,
+				023ADC3A20D11E7400B2E387 /* ICEDebugvctree.h */,
+				023ADC3B20D11E7400B2E387 /* ICEDebugvctree.m */,
+				023ADC4020D12A2D00B2E387 /* ICEDebugpush.h */,
+				023ADC4120D12A2D00B2E387 /* ICEDebugpush.m */,
+				023ADC4320D12B9D00B2E387 /* ICEDebugproperties.h */,
+				023ADC4420D12B9D00B2E387 /* ICEDebugproperties.m */,
+				023ADC4620D12ED900B2E387 /* ICEDebughelp.h */,
+				023ADC4720D12ED900B2E387 /* ICEDebughelp.m */,
+				023ADC5520D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.h */,
+				023ADC5620D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.m */,
+				023ADC5920D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.h */,
+				023ADC5A20D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.m */,
+				023ADC5C20D2380600B2E387 /* ICEDebugUIRuler.h */,
+				023ADC5D20D2380600B2E387 /* ICEDebugUIRuler.m */,
+				023ADC5F20D241E900B2E387 /* ICEDebugpo.h */,
+				023ADC6020D241E900B2E387 /* ICEDebugpo.m */,
+				023ADC6220D2438800B2E387 /* ICEDebugsubviews.h */,
+				023ADC6320D2438800B2E387 /* ICEDebugsubviews.m */,
+				023ADC6520D2446100B2E387 /* ICEDebugframe.h */,
+				023ADC6620D2446100B2E387 /* ICEDebugframe.m */,
+				185FB23121A6B7CD009A5966 /* ICEDebugedge.h */,
+				185FB23221A6B7CD009A5966 /* ICEDebugedge.m */,
+				185FB23421A6B948009A5966 /* ICEDebugremoveview.h */,
+				185FB23521A6B948009A5966 /* ICEDebugremoveview.m */,
+				185FB23721A6BF33009A5966 /* ICEDebugaddview.h */,
+				185FB23821A6BF33009A5966 /* ICEDebugaddview.m */,
+				185FB24021A8595E009A5966 /* ICEDebugscreeninfo.h */,
+				185FB24121A8595E009A5966 /* ICEDebugscreeninfo.m */,
+				021D921221A7D125006E1797 /* ICEDebugmove.h */,
+				021D921321A7D125006E1797 /* ICEDebugmove.m */,
+				023ADCBA20D2541800B2E387 /* ICEDebug.h */,
+				021D921521A802ED006E1797 /* ICEDebugdevice.h */,
+				021D921621A802ED006E1797 /* ICEDebugdevice.m */,
+				021D921821A80B4E006E1797 /* ICEDebugapplist.h */,
+				021D921921A80B4E006E1797 /* ICEDebugapplist.m */,
+				185FB24321A9275F009A5966 /* ICEDebugopenurl.h */,
+				185FB24421A9275F009A5966 /* ICEDebugopenurl.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		BE9B9E7ED82C10AA30B30FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B257F3BCC6A1AB2C7FBAE5EF /* Pods-ICEDebug.debug.xcconfig */,
+				2D15C83B3A40E05F938A7577 /* Pods-ICEDebug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7722B8E7C891E24EA52CE78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D8EA437A40C5DBA20BA099 /* libPods-ICEDebug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F51E5C20D0F5F000930FFD /* ICEDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F51E8C20D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebug" */;
+			buildPhases = (
+				84A3CF42C27B0EAB10AE205B /* [CP] Check Pods Manifest.lock */,
+				02F51E5920D0F5F000930FFD /* Sources */,
+				02F51E5A20D0F5F000930FFD /* Frameworks */,
+				02F51E5B20D0F5F000930FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICEDebug;
+			productName = ICEDebug;
+			productReference = 02F51E5D20D0F5F000930FFD /* ICEDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F51E7720D0F5F300930FFD /* ICEDebugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F51E8F20D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebugTests" */;
+			buildPhases = (
+				02F51E7420D0F5F300930FFD /* Sources */,
+				02F51E7520D0F5F300930FFD /* Frameworks */,
+				02F51E7620D0F5F300930FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F51E7A20D0F5F300930FFD /* PBXTargetDependency */,
+			);
+			name = ICEDebugTests;
+			productName = ICEDebugTests;
+			productReference = 02F51E7820D0F5F300930FFD /* ICEDebugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02F51E8220D0F5F300930FFD /* ICEDebugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F51E9220D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebugUITests" */;
+			buildPhases = (
+				02F51E7F20D0F5F300930FFD /* Sources */,
+				02F51E8020D0F5F300930FFD /* Frameworks */,
+				02F51E8120D0F5F300930FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F51E8520D0F5F300930FFD /* PBXTargetDependency */,
+			);
+			name = ICEDebugUITests;
+			productName = ICEDebugUITests;
+			productReference = 02F51E8320D0F5F300930FFD /* ICEDebugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F51E5520D0F5F000930FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wanda;
+				TargetAttributes = {
+					02F51E5C20D0F5F000930FFD = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					02F51E7720D0F5F300930FFD = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 02F51E5C20D0F5F000930FFD;
+					};
+					02F51E8220D0F5F300930FFD = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 02F51E5C20D0F5F000930FFD;
+					};
+				};
+			};
+			buildConfigurationList = 02F51E5820D0F5F000930FFD /* Build configuration list for PBXProject "ICEDebug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F51E5420D0F5F000930FFD;
+			productRefGroup = 02F51E5E20D0F5F000930FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F51E5C20D0F5F000930FFD /* ICEDebug */,
+				02F51E7720D0F5F300930FFD /* ICEDebugTests */,
+				02F51E8220D0F5F300930FFD /* ICEDebugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F51E5B20D0F5F000930FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F51E9720D0F7C700930FFD /* ICEDebug.podspec in Resources */,
+				02F51E7020D0F5F300930FFD /* LaunchScreen.storyboard in Resources */,
+				02F51E6D20D0F5F300930FFD /* Assets.xcassets in Resources */,
+				02F51E6820D0F5F000930FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E7620D0F5F300930FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E8120D0F5F300930FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84A3CF42C27B0EAB10AE205B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICEDebug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F51E5920D0F5F000930FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F51E6520D0F5F000930FFD /* ViewController.m in Sources */,
+				023ADC5120D1327A00B2E387 /* ICEDebugCommonCommand.m in Sources */,
+				02C62D1D2109F7DD00A7055C /* ICEDebugCommunication.m in Sources */,
+				02F51E6220D0F5F000930FFD /* AppDelegate.m in Sources */,
+				185FB23621A6B948009A5966 /* ICEDebugremoveview.m in Sources */,
+				185FB23921A6BF33009A5966 /* ICEDebugaddview.m in Sources */,
+				02F51EA920D0FD8700930FFD /* ICEDebugCommunicationManager.m in Sources */,
+				023ADC6420D2438800B2E387 /* ICEDebugsubviews.m in Sources */,
+				021D921421A7D125006E1797 /* ICEDebugmove.m in Sources */,
+				185FB24521A9275F009A5966 /* ICEDebugopenurl.m in Sources */,
+				021D921A21A80B4E006E1797 /* ICEDebugapplist.m in Sources */,
+				023ADC6720D2446100B2E387 /* ICEDebugframe.m in Sources */,
+				023ADC3C20D11E7400B2E387 /* ICEDebugvctree.m in Sources */,
+				023ADC4520D12B9D00B2E387 /* ICEDebugproperties.m in Sources */,
+				021D921721A802ED006E1797 /* ICEDebugdevice.m in Sources */,
+				02F51E7320D0F5F300930FFD /* main.m in Sources */,
+				185FB23321A6B7CD009A5966 /* ICEDebugedge.m in Sources */,
+				023ADC5720D21ADA00B2E387 /* ICEDebugUIRulerVerticalView.m in Sources */,
+				023ADC4220D12A2D00B2E387 /* ICEDebugpush.m in Sources */,
+				185FB23C21A8425C009A5966 /* ICEDebugWebCommunication.m in Sources */,
+				023ADC5B20D21F5500B2E387 /* ICEDebugUIRulerHorizontalView.m in Sources */,
+				02F51E6B20D0F5F000930FFD /* ICEDebug.xcdatamodeld in Sources */,
+				185FB24221A8595E009A5966 /* ICEDebugscreeninfo.m in Sources */,
+				023ADC3F20D120BB00B2E387 /* ICEDebugBaseCommand.m in Sources */,
+				023ADC6120D241E900B2E387 /* ICEDebugpo.m in Sources */,
+				023ADC5E20D2380600B2E387 /* ICEDebugUIRuler.m in Sources */,
+				023ADC4820D12ED900B2E387 /* ICEDebughelp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E7420D0F5F300930FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F51E7D20D0F5F300930FFD /* ICEDebugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F51E7F20D0F5F300930FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F51E8820D0F5F300930FFD /* ICEDebugUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F51E7A20D0F5F300930FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F51E5C20D0F5F000930FFD /* ICEDebug */;
+			targetProxy = 02F51E7920D0F5F300930FFD /* PBXContainerItemProxy */;
+		};
+		02F51E8520D0F5F300930FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F51E5C20D0F5F000930FFD /* ICEDebug */;
+			targetProxy = 02F51E8420D0F5F300930FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02F51E6620D0F5F000930FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F51E6720D0F5F000930FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02F51E6E20D0F5F300930FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F51E6F20D0F5F300930FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F51E8A20D0F5F300930FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02F51E8B20D0F5F300930FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F51E8D20D0F5F300930FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B257F3BCC6A1AB2C7FBAE5EF /* Pods-ICEDebug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9468KWWZ3M;
+				INFOPLIST_FILE = ICEDebug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02F51E8E20D0F5F300930FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D15C83B3A40E05F938A7577 /* Pods-ICEDebug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9468KWWZ3M;
+				INFOPLIST_FILE = ICEDebug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02F51E9020D0F5F300930FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9WWB683T;
+				INFOPLIST_FILE = ICEDebugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICEDebug.app/ICEDebug";
+			};
+			name = Debug;
+		};
+		02F51E9120D0F5F300930FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9WWB683T;
+				INFOPLIST_FILE = ICEDebugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebugTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICEDebug.app/ICEDebug";
+			};
+			name = Release;
+		};
+		02F51E9320D0F5F300930FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9WWB683T;
+				INFOPLIST_FILE = ICEDebugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ICEDebug;
+			};
+			name = Debug;
+		};
+		02F51E9420D0F5F300930FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX9WWB683T;
+				INFOPLIST_FILE = ICEDebugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerome.ICEDebugUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ICEDebug;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F51E5820D0F5F000930FFD /* Build configuration list for PBXProject "ICEDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F51E8A20D0F5F300930FFD /* Debug */,
+				02F51E8B20D0F5F300930FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F51E8C20D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F51E8D20D0F5F300930FFD /* Debug */,
+				02F51E8E20D0F5F300930FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F51E8F20D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F51E9020D0F5F300930FFD /* Debug */,
+				02F51E9120D0F5F300930FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F51E9220D0F5F300930FFD /* Build configuration list for PBXNativeTarget "ICEDebugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F51E9320D0F5F300930FFD /* Debug */,
+				02F51E9420D0F5F300930FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02F51E6920D0F5F000930FFD /* ICEDebug.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02F51E6A20D0F5F000930FFD /* ICEDebug.xcdatamodel */,
+			);
+			currentVersion = 02F51E6A20D0F5F000930FFD /* ICEDebug.xcdatamodel */;
+			path = ICEDebug.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02F51E5520D0F5F000930FFD /* Project object */;
+}
